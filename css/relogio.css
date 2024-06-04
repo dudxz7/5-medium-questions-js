@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+#all{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 212px;
+}
+#all button{
+    border-radius: 6px;
+    color: white;
+    background-color: darkorchid;
+}
+p{
+    color: rgb(255, 255, 255);
+}

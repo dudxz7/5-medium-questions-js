@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <link rel="stylesheet" href="css/loja.css">
+</head>
+<body>
+    <!-- Crie um sistema em que uma loja pode escolher entre aplicar um desconto ou um acréscimo ao produto do cliente -->
+    <main>
+        <h2>Minha Lojinha 🏪</h2>
+        <label for="valor">Valor: </label>
+        <input type="text" id="valor" placeholder="digite o valor do item aqui" required> <br> <br>
+        <label for="valor">Porcentagem: </label>
+        <input type="text" id="valor2" placeholder="digite o valor da porcentagem" required><br> <br>
+        <button onclick="desconto()" id="bt1">Desconto</button>
+        <button onclick="acres()" id="bt2">Acréscimo</button>
+        <p id="resultado"></p>
+    </main>
+    <script src="js/loja.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+#all {
+    text-align: center;
+    color: #fff;
+}
+button{
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(50, 78, 204);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(42, 36, 128);
+}
+p {
+    color: red;
+}
+.check {
+    color: rgb(54, 148, 54);
+}
+label{
+    color: rgb(54, 116, 250);
+}

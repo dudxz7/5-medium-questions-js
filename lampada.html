@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão2</title>
+    <link rel="stylesheet" href="css/lampada.css">
+</head>
+<body>
+    <!-- Faça uma lâmpada acender coforme uma senha -->
+    <div id="all">
+        <img src="img/lamp-off.png" width="145px" id="apagada" alt="Lâmpada apagada"> <br> <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Digite sua senha aqui" required> <br> <br>
+        <button onclick="verificarSenha()">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="js/lampada.js"></script>
+</body>
+</html>
